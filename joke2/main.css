@@ -115,6 +115,14 @@ video {
 
 
 /* Style video controls */
+
+
+.video {
+  margin-left: 175px;
+  margin-bottom: 200px;
+ }
+
+ 
 video::-webkit-media-controls {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
   color: white; /* Control button color */
