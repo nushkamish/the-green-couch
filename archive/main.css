@@ -1,0 +1,252 @@
+.body {
+
+    background-color: #ededeb;
+
+}
+
+.couch1 img {
+  max-width: 8%;
+  max-height: auto;
+  margin-left: 10px;
+  margin-top: -300px;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+
+.couch2 img {
+  opacity: 0;
+  max-width: 8%;
+  max-height: auto;
+  margin-left: 10px;
+  margin-top:  -300px;
+  position: absolute;
+  transition: opacity 0.5s ease;
+}
+
+.couch1 img {
+  z-index: 1; /* Ensure couch1 is above couch2 initially */
+}
+
+.couch2 img {
+  opacity: 0;
+}
+
+.couch1:hover img {
+  opacity: 0; /* Hide couch1 when hovering over it */
+}
+
+.couch1:hover + .couch2 img {
+  opacity: 1; /* Show couch2 when hovering over couch1 */
+}
+
+.title {
+    font-family: "miller-display", serif;
+    font-weight: 300;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-size: 150px;
+    color: #2a443c;
+    margin-top: 320px;
+    position: relative;
+}
+
+.title2 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: #2a443c;
+  margin-top: 300px;
+  margin-top: -15px;
+  position: relative;
+}
+
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end; 
+    position: absolute; /* Position the navbar */
+    top: 22px; /* Adjust top position if necessary */
+    right: 20px; /
+  }
+  
+  .nav-btn {
+    color: #2a443c;
+    text-decoration: none;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px 20px;
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #2a443c; /* Black stroke */
+    margin-left: 10px; /* Add some space between buttons */
+    transition: background-color 0.3s;
+  }
+  
+  .nav-btn:hover {
+    background-color: #2a443c; /* Darker color on hover */
+    color: white; /* Text color on hover */
+  }
+
+  .archive {
+    margin-top: 250px;
+    text-align: center; /* Center the elements */
+}
+
+
+.a1,
+.a2,
+.a3 {
+    display: inline-block; /* Display elements in a row */
+    margin: 0 35px; /* Add some space between elements */
+    vertical-align: top; /* Align elements to the top */
+    width: calc(25% - 20px); /* Set width for each element */
+}
+
+.a1 img,
+.a2 img,
+.a3 img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+}
+  
+
+.caption {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #2a443c;
+  margin-top: -140px;
+}
+
+
+.a4,
+.a5,
+.a6 {
+    display: inline-block; /* Display elements in a row */
+    margin: 0 35px; /* Add some space between elements */
+    vertical-align: top; /* Align elements to the top */
+    width: calc(25% - 20px); /* Set width for each element */
+}
+
+.a4 img,
+.a5 img,
+.a6 img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+}
+  
+
+.caption1 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #2a443c;
+  margin-top: -140px;
+}
+
+
+
+.a7,
+.a8,
+.a9 {
+    display: inline-block; /* Display elements in a row */
+    margin: 0 35px; /* Add some space between elements */
+    vertical-align: top; /* Align elements to the top */
+    width: calc(25% - 20px); /* Set width for each element */
+}
+
+.a7 img,
+.a8 img,
+.a9 img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+}
+  
+
+.caption2 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #2a443c;
+  margin-top: -140px;
+}
+
+
+
+.a10,
+.a11,
+.a12 {
+    display: inline-block; /* Display elements in a row */
+    margin: 0 35px; /* Add some space between elements */
+    vertical-align: top; /* Align elements to the top */
+    width: calc(25% - 20px); /* Set width for each element */
+}
+
+.a10 img,
+.a11 img,
+.a12 img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+}
+  
+
+.caption3 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #2a443c;
+  margin-top: -140px;
+}
+
+
+.a13,
+.a14,
+.a15 {
+    display: inline-block; /* Display elements in a row */
+    margin: 0 35px; /* Add some space between elements */
+    vertical-align: top; /* Align elements to the top */
+    width: calc(25% - 20px); /* Set width for each element */
+}
+
+
+
+
+.a13 img,
+.a14 img,
+.a15 img {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto;
+}
+  
+
+.caption4 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #2a443c;
+  margin-top: -140px;
+}
+
+
+
+

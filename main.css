@@ -1,0 +1,293 @@
+.body {
+
+    background-color: #ededeb;
+
+}
+
+.couch1 img {
+  max-width: 8%;
+  max-height: auto;
+  margin-left: 10px;
+  margin-top: -300px;
+  position: fixed;
+  transition: opacity 0.5s ease;
+
+}
+
+.couch2 img {
+  opacity: 0;
+  max-width: 8%;
+  max-height: auto;
+  margin-left: 10px;
+  margin-top:  -300px;
+  position: fixed;
+  transition: opacity 0.5s ease;
+}
+
+.couch1 img {
+  z-index: 1; /* Ensure couch1 is above couch2 initially */
+}
+
+.couch2 img {
+  opacity: 0;
+}
+
+.couch1:hover img {
+  opacity: 0; /* Hide couch1 when hovering over it */
+}
+
+.couch1:hover + .couch2 img {
+  opacity: 1; /* Show couch2 when hovering over couch1 */
+}
+
+
+.slides img {
+  max-width: 5%;
+  max-height: auto;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end; 
+    position: fixed; /* Position the navbar */
+    top: 22px; /* Adjust top position if necessary */
+    right: 20px; /
+  }
+  
+  .nav-btn {
+    color:#2a443c;
+    text-decoration: none;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px 20px;
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #2a443c; /* Black stroke */
+    margin-left: 10px; /* Add some space between buttons */
+    transition: background-color 0.3s;
+  }
+  
+  .nav-btn:hover {
+    background-color: #2a443c; /* Darker color on hover */
+    color: white; /* Text color on hover */
+  }
+  
+
+.title {
+    font-family: "miller-display", serif;
+    font-weight: 300;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-size: 150px;
+    color: #2a443c;
+    margin-top: 320px;
+    position: relative;
+}
+
+.title2 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: #2a443c;
+  margin-top: 300px;
+  margin-top: -15px;
+  position: relative;
+}
+
+
+.slides-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Black translucent background */
+  z-index: 9999; /* Ensure the background is above everything else */
+  display: none; /* Initially hidden */
+}
+
+.slides-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+
+.slides-container img {
+  max-width: 120%;
+  max-height: auto;
+}
+
+
+
+.joke {
+
+  font-family: "miller-text", serif;
+  line-height: 37px;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 36px;
+  color: #2a443c;
+
+}
+
+
+
+  /* unvisited link */
+.joke:link {
+  color: #2a443c;
+  text-decoration: none;
+
+}
+
+/* visited link */
+.joke:visited {
+  color: #2a443c;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.joke:hover {
+  color: #2a443c;
+  font-family: "miller-text", serif;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* selected link */
+.joke:active {
+  color: #2a443c;
+  text-decoration: none;
+}
+
+.instruction {
+
+  font-family: "articulat-cf", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 25px;
+color: #2a443c;
+width: 55%;
+margin: auto;
+text-align: justify;
+
+} 
+
+
+  /* unvisited link */
+  .foodlinks:link {
+    color: #2a443c;
+    text-decoration: none;
+    font-family: "articulat-cf", sans-serif;
+font-weight: 700;
+font-style: normal;
+  
+  }
+  
+  /* visited link */
+  .foodlinks:visited {
+    color: #2a443c;
+    text-decoration: none;
+    font-family: "articulat-cf", sans-serif;
+font-weight: 900;
+font-style: normal;
+  }
+  
+  /* mouse over link */
+  .foodlinks:hover {
+    color: #2a443c;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    
+  }
+  
+  /* selected link */
+  .foodlinks:active {
+    color: #2a443c;
+    text-decoration: none;
+    font-family: "articulat-cf", sans-serif;
+font-weight: 900;
+font-style: normal;
+  }
+
+  .i {
+    color: #2a443c;
+    font-family: "articulat-cf", sans-serif;
+font-weight: 700;
+font-style: italic;
+  }
+
+
+  .spotify {
+    max-width: 60%;
+    max-height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 300px;
+   
+  }
+
+  .sit img {
+
+    max-width: 30%;
+    max-height: auto;
+  
+
+  
+  }
+
+  .sit {
+    align-content: center;
+    display: grid;
+    place-items: center;
+  }
+  
+
+
+
+
+  .disclaimer {
+
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    justify-content: center;
+  text-align: center;
+    font-size: 15px;
+    color: #2a443c;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 100px;
+
+  }
+
+
+  .close-btn {
+    position: absolute;
+    top: 50px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the right position as needed */
+    color: #ededeb; /* Text color */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    font-size: 24px; /* Adjust font size as needed */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+

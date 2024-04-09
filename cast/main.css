@@ -1,0 +1,177 @@
+body {
+    background-color:#2a443c ;
+}
+
+.couch1 img {
+    max-width: 8%;
+    max-height: auto;
+    margin-left: 10px;
+    margin-top: -300px;
+    position: absolute;
+    transition: opacity 0.5s ease;
+  }
+  
+  .couch2 img {
+    opacity: 0;
+    max-width: 8%;
+    max-height: auto;
+    margin-left: 10px;
+    margin-top:  -300px;
+    position: absolute;
+    transition: opacity 0.5s ease;
+  }
+  
+  .couch1 img {
+    z-index: 1; /* Ensure couch1 is above couch2 initially */
+  }
+  
+  .couch2 img {
+    opacity: 0;
+  }
+  
+  .couch1:hover img {
+    opacity: 0; /* Hide couch1 when hovering over it */
+  }
+  
+  .couch1:hover + .couch2 img {
+    opacity: 1; /* Show couch2 when hovering over couch1 */
+  }
+
+  .navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end; 
+    position: absolute; /* Position the navbar */
+    top: 22px; /* Adjust top position if necessary */
+    right: 20px; /
+  }
+  
+  .nav-btn {
+    color: #ededeb;
+    text-decoration: none;
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px 20px;
+    border-radius: 20px; /* Rounded corners */
+    border: 2px solid #ededeb; /* Black stroke */
+    margin-left: 10px; /* Add some space between buttons */
+    transition: background-color 0.3s;
+  }
+  
+  .nav-btn:hover {
+    background-color: #ededeb; /* Darker color on hover */
+    color: #2a443c; /* Text color on hover */
+  }
+  
+
+
+  
+
+
+
+
+.title1{
+    font-family: "miller-display", serif;
+    font-weight: 300;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-size: 150px;
+    color: #ededeb;
+    margin-top: 320px;
+    position: relative;
+  
+}
+
+.title2 {
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: #ededeb;
+  margin-top: 300px;
+  margin-top: -15px;
+  position: relative;
+}
+
+.cast1 {
+
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    gap: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.cast1 img {
+    max-width: 20%;
+    max-height: auto;
+
+}
+
+
+
+.head1 {
+
+    font-family: "miller-display", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: #ededeb;
+
+}
+
+
+.head2 {
+
+    font-family: "miller-display", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: #ededeb;
+    position: relative;
+    top: 100px;
+    
+
+}
+
+
+.cast2 {
+
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    gap: 40px;
+    position: relative;
+    top: 170px;
+}
+
+.cast2 img {
+    max-width: 20%;
+    max-height: auto;
+
+}
+
+
+.castf {
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    gap: 40px;
+    position: relative;
+    top: 170px;
+    margin-bottom: 300px;
+}
+
+
+.castf img {
+    max-width: 20%;
+    max-height: auto;
+
+}
+    
+
+
